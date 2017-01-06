@@ -16,7 +16,10 @@ bundle exec rails server -p 5000
 ## Authentication & API Request Flow
 
 ### Register your Application
-access `oauth/applications` then register new application
+access `oauth/applications` 
+![register](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.53.58.png)
+
+then register new application
 
 ### Authorization
 click Authorize button  
