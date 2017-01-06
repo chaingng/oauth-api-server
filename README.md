@@ -17,14 +17,20 @@ bundle exec rails server -p 5000
 
 ### Register your Application
 access `oauth/applications` 
-![register](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.53.58.png)
+
+![newapp](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.53.58.png)
 
 then register new application
+
+![register](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.54.24.png)
 
 ### Authorization
 click Authorize button  
 
+![authorizebutton](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.54.31.png)
+
 or Authorize API request
+
 ```bash
 curl -X GET http://localhost:5000/oauth/authorize \
 -F response_type=code \
