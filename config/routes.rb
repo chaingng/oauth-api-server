@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'api/index', to: 'api#index'
+  get 'api/user', to: 'api#user'
+
   use_doorkeeper
   devise_for :users
   get 'welcome/index'
