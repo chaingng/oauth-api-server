@@ -40,6 +40,7 @@ curl -X GET http://localhost:5000/oauth/authorize \
 ```
 
 ### Token Request
+
 ```bash
 curl -X POST http://localhost:5000/oauth/token \
 -F grant_type=authorization_code \
@@ -50,8 +51,18 @@ curl -X POST http://localhost:5000/oauth/token \
 -F scope=info
 ```
 
+then, response like this
+```bash
+{"access_token":"2d1a69418f627ef397285c8a7bf2877e66c4febf709e09fbc958ec3b08b1430e","token_type":"bearer","expires_in":7200,"scope":"info","created_at":1483685928}
+```
+
 ### API Request
 ```bash
 curl -X GET http://localhost:5000/api/user \
 -H "Authorization: Bearer 142107ad12a550595faca319491921d7b358df4e9edddd87ee46a193c7c09f97"
+```
+
+then, response like this
+```bash
+{"id":1,"email":"test@example.com","created_at":"2017-01-06T06:28:46.713Z","updated_at":"2017-01-06T07:11:35.212Z"}
 ```
