@@ -40,7 +40,7 @@ curl -X GET http://localhost:5000/oauth/authorize \
 ```
 
 ### Redirect User to Login Page
-redirect user to login page
+After Authorize action, redirect user to login page
 
 ![redirect](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-18.34.50.png)
 
