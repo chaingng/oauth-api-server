@@ -47,7 +47,7 @@ After login or signup, move to confirm authorization page
 ![confirmauthorize](https://raw.githubusercontent.com/chaingng/images/master/2017-01-06-15.56.59.png)
 
 
-then, Redirect specified redirect_url with authorization code 
+If clck Authorize, redirect specified redirect_url with authorization code 
 
 ### Token Request
 
